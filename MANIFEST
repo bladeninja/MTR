@@ -1,0 +1,7 @@
+Build.PL
+Changes
+MANIFEST			This list of files
+README.md
+src/ft_conf.pm
+src/replace_text.pl
+
