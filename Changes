@@ -1,0 +1,6 @@
+Changelog for mtreplace.pl
+
+0.11 Tue Jun  4 17:19:05 EDT 2013
+	
+	 - Added recursive directory support
+	 - Added support for filetype filtering
