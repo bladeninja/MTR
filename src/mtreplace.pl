@@ -270,11 +270,11 @@ __END__
 
 =head1 NAME
 
-	replace_text.pl - Run text replacement on all files in a directory
+	mtreplace.pl - Run text replacement on all files in a directory
 
 =head1 SYNOPSIS
 
-  replace_text.pl [options] [Files/Directories]
+  mtreplace.pl [options] [Files/Directories]
     Options:
       -all             selexr all files and directories for operations, does not ignore filetypes
       -conf            <required> configuration file for text replacement
@@ -321,11 +321,11 @@ __END__
 
 =head1 DESCRIPTION
 
-    replace_text.pl will read the given configuration file and will replace text on all files in this directory. 
+    mtreplace.pl will read the given configuration file and will replace text on all files in this directory. 
 	
 	All files that have been read will be printed, and files which have been changed will be indicated with a '*' after the filename
 
-	How to run: ~/replace_text.pl -c ~/replace.conf -h
+	How to run: ~/mtreplace.pl -c ~/replace.conf -h
 
 =head1 CONFIGURATION
 
