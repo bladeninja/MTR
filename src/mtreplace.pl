@@ -20,9 +20,9 @@ my @fileList = ();
 my $FT = File::Type->new();
 
 use constant {
-	TRUE	=> 1,
 	FALSE	=> 0,
-	UNKNOWN	=> -1
+	TRUE	=> 1,
+	UNKNOWN	=> 2
 };
 
 sub isKnownFileType($){
