@@ -5,6 +5,8 @@ use Pod::Usage;
 use Cwd 'abs_path';
 use File::Copy;
 use File::Type;
+use File::Basename;
+use lib dirname(__FILE__);
 use ft_conf;
 
 my @configurations = ();
